@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100;400&display=swap');
+
+:root {
+    --primary-color: #209a7a;
+    --secondary-color: #1d564b;
+    --sextenary-color: #DEDEE0;
+
+    --primary-font: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.index__body {
+    font-size: 100%;
+    background-image: linear-gradient(180deg, var(--primary-color) 20%, var(--secondary-color)80%);
+    color: var(--sextenary-color);
+}
+
+.choose__profile {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.choose__profile__content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.choose__profile__text {
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--primary-font);
+}
+
+.choose__profile__content_profiles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.choose__profile__content__profiles__anchor:hover img{
+    outline: 3px solid var(--sextenary-color);
+    border-radius: 5%;
+}
+
+.choose__profile__content__profiles__anchor:hover p{
+    color: var(--sextenary-color);
+}
+
+.choose__profile__content_profiles__text {
+    color: #11332c;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5% 0 0;
+}
+
+.index__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.index__footer img{
+    width: 10%;
+}
